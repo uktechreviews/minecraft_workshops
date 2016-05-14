@@ -2,7 +2,7 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 import time
 mc = minecraft.Minecraft.create()
-mc.postToChat(“Is that a melon on your head?”)
+mc.postToChat("Is that a melon on your head")
 
 while True:
 	tile = mc.player.getTilePos()
